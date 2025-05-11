@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2{
+    height: 100%;
+    background-color: rgb(255, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page3{
+    height: 100%;
+    background-color: rgb(199, 255, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+}
