@@ -20,8 +20,8 @@ body{
     height: 100%;
     background-color: rgb(255, 186, 186);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 #page3{
     height: 100%;
@@ -41,4 +41,10 @@ body{
 h1{
     color: white;
     font-size: 2rem;
+}
+#page2 #scroll{
+   font-size: 44vh;
+   font-weight: 600;
+   text-transform: uppercase;
+   
 }
